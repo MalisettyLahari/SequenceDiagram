@@ -1,0 +1,2 @@
+[WARN ] org.eclipse.xtext.ui.shared.internal.Activator 09:35:53.997 2023/02/28: Multiple overriding guice modules. Will use them in unspecified order.
+[WARN ] org.eclipse.xtext.ui.shared.internal.Activator 09:40:07.616 2023/02/28: Multiple overriding guice modules. Will use them in unspecified order.

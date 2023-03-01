@@ -1,0 +1,14 @@
+2023-02-28 09:36:18.255 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - Architecture tool is started...
+2023-02-28 09:36:18.269 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - exception caught in incremental building of the project or
+java.lang.NullPointerException
+2023-02-28 09:40:40.213 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - Architecture tool is started...
+2023-02-28 09:40:40.225 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler -  flavor name TE/ST1
+2023-02-28 09:41:48.421 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - D:\Test-SwArchitectureModel-develop\RhpyModel\EBS_L3_SW_Overall_AM\EBS.rpyx
+2023-02-28 09:41:48.450 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - Start exporting cidl data to Rhapsody Model
+
+2023-02-28 09:41:48.492 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - Time for run-24
+2023-02-28 09:41:48.493 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - gg
+2023-02-28 09:41:48.493 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - End exporting cidl data to Rhapsody
+
+2023-02-28 09:41:48.494 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - Exported cidl Data to Rhapsody
+2023-02-28 09:41:48.494 INFO com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler - Architecture tool ended...............

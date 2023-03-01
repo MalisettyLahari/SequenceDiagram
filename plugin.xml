@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            name="Run Architecture Tool"
+            categoryId="com.contiautomotive.architecture.tool.commands.category"
+            id="com.contiautomotive.architecture.tool.commands.architectureCmd">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="com.contiautomotive.architecture.tool.commands.architectureCmd"
+            class="com.contiautomotive.architecture.tool.handlers.CidlCollectorHandler">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.ui.popup.any?before=additions">
+         <menu
+               commandId="com.contiautomotive.architecture.tool.commands.architectureCmd"
+               id="com.contiautomotive.cidl.cnr.menu.ArchitectureTool"
+               label="ArchitectureTool">
+            <command
+                  commandId="com.contiautomotive.architecture.tool.commands.architectureCmd"
+                  style="push">
+               <visibleWhen
+                     checkEnabled="false">
+                  <iterate
+                        ifEmpty="false">
+                     <adapt
+                           type="org.eclipse.core.resources.IProject">
+                     </adapt>
+                  </iterate>
+               </visibleWhen>
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="com.continental.plm.cli.commandline">
+      <command
+            command="com.contiautomotive.architecture.tool.automation.AutomationTool"
+            description="Automation Tool for new model"
+            name="AutomationToolCmd">
+      </command>
+   </extension>
+
+</plugin>

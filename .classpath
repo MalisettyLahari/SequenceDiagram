@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-api-2.17.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-core-2.17.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xmlbeans.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/rhapsody.jar"/>
+	<classpathentry kind="lib" path="lib/com.google.inject_3.0.0.v201312141243.jar"/>
+	<classpathentry kind="lib" path="lib/com.google.inject.source_3.0.0.v201312141243.jar"/>
+	<classpathentry kind="lib" path="lib/libenvvar.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.8.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="xtend-gen"/>
+	<classpathentry kind="lib" path="C:/Users/uic96219/Downloads/jar_files_log4j2/log4j2-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/uic96219/Downloads/jar_files_log4j2/log4j-api-2.17.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/uic96219/Downloads/jar_files_log4j2/log4j-core-2.17.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

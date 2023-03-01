@@ -1,0 +1,6 @@
+projectKey=NewModelStructure
+serverUrl=http://localhost:9000
+serverVersion=9.0.0.45539
+dashboardUrl=http://localhost:9000/dashboard?id=NewModelStructure
+ceTaskId=AYRRZYkiiuUhHkDtT_PZ
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYRRZYkiiuUhHkDtT_PZ
